@@ -1,9 +1,12 @@
 import React from 'react'
+import SliderBigCard from '../SliderBigCard'
 
 function SliderBigCardList() {
 	return (
 		<ul>
-			SliderBigCardList
+			<SliderBigCard />
+			<SliderBigCard />
+			<SliderBigCard />
 		</ul>
 	)
 }
