@@ -3,7 +3,9 @@ import React from 'react'
 function Header() {
 	return (
 		<header>
-			<h2>Header</h2>
+			<img alt="logo"/>
+			<button>Кнопка</button>
+			<button>Кнопка</button>
 		</header>
 	)
 }
