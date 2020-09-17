@@ -1,9 +1,12 @@
 import React from 'react'
+import Body from './Body'
+import Supmenu from './Supmenu'
 
 function App() {
 	return (
 		<div>
-			<h1>Hello World!</h1>
+			<Body />
+			<Supmenu />
 		</div>
 	)
 }
