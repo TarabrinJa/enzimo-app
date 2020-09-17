@@ -1,9 +1,14 @@
 import React from 'react'
+import SliderCardList from '../SliderCardList'
+import SliderLeftButton from '../SliderLeftButton'
+import SliderRightButton from '../SliderRightButton'
 
 function Slider() {
 	return (
 		<div>
-			<h2>Slider</h2>
+			<SliderCardList />
+			<SliderLeftButton />
+			<SliderRightButton />
 		</div>
 	)
 }

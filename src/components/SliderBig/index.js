@@ -1,9 +1,15 @@
 import React from 'react'
+import SliderBigCardList from '../SliderBigCardList'
+import SliderLeftButton from '../SliderLeftButton'
+import SliderRightButton from '../SliderRightButton'
 
 function SliderBig() {
 	return (
 		<div>
-			<h2>SliderBig</h2>
+			<header>Клиники</header>
+			<SliderBigCardList />
+			<SliderLeftButton />
+			<SliderRightButton />
 		</div>
 	)
 }
