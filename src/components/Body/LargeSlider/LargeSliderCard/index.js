@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SliderBigCard() {
+function LargeSliderCard() {
 	return (
 		<li>
 			<div>
@@ -11,4 +11,4 @@ function SliderBigCard() {
 	)
 }
 
-export default SliderBigCard
+export default LargeSliderCard

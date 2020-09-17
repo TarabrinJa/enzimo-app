@@ -1,17 +1,17 @@
 import React from 'react'
-import SliderBigCardList from './SliderBigCardList'
+import LargeSliderCardList from './LargeSliderCardList'
 import SliderLeftButton from './SliderLeftButton'
 import SliderRightButton from './SliderRightButton'
 
-function SliderBig() {
+function LargeSlider() {
 	return (
 		<div>
 			<header>Клиники</header>
-			<SliderBigCardList />
+			<LargeSliderCardList />
 			<SliderLeftButton />
 			<SliderRightButton />
 		</div>
 	)
 }
 
-export default SliderBig
+export default LargeSlider
